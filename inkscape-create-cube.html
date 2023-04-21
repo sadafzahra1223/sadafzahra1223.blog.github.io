@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SadafZahra1223</title>
+  <style>
+    
+/**
+* Here, the layout is handled by the grid instead.
+* The main area is sized with 1fr,
+* which works the same way as flex-grow: 1 with a flex-basis of 0
+* in flexbox, i.e. takes up the remaining space.
+*/
+body {
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  height: 100vh;
+  font-family: Avenir Next, SegoeUI, sans-serif;
+}
+
+div {
+  color: #fff;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.page-header {
+  background-color: black;
+  color: #fff;
+  max-height: 200px;
+}
+.page-main {
+  /*background-color: purple;*/
+  /* overflow: auto;added an overflow rule to make the main area scroll if necessary */
+  color: #000;
+  width: 80%;
+}
+
+.page-footer {
+  background-color: black;
+  color: #fff;
+  max-height: 200px;
+}
+  </style>
+</head>
+<body>
+  <div class="page-header">
+    <p style="float:left; font-size: 21px;">Sadaf Zahra</p>
+    <a href="#" style="float:right;text-decoration: none; color:#dee2e6"><br>Contact</a>
+    <a href="/" style="float:right;text-decoration: none; color:#dee2e6"><br>Blog&nbsp;&nbsp;&nbsp;</a>
+  </div>
+  <div class="page-main">
+    <h1>Create a cube with Inkscape</h1>
+    <img src='https://sadafzahra1223.s3.amazonaws.com/inkscape-create-cube/thumbnail.png' alt='cube-thumbnail' width='100%' height='auto' />
+    <br /><br /><br />
+
+    1. Go to create stars and polygons, select regular polygon and choose 6 corners, change the color and stroke of the object if you like. 
+    I made mine transparent in grey. 
+    <br /><br />
+    <img src='https://sadafzahra1223.s3.amazonaws.com/inkscape-create-cube/2.png' alt='cube-2' width='100%' height='auto' />
+    <br /><br /><br />
+
+    2. Right-click on the object and duplicate the object three times.
+    <br />
+    <img src='https://sadafzahra1223.s3.amazonaws.com/inkscape-create-cube/3.png' alt='cube-3' width='100%' height='auto' />
+    <br /><br /><br />
+
+    3. Place on the corners like so. 
+    <br /><br />
+    <img src='https://sadafzahra1223.s3.amazonaws.com/inkscape-create-cube/4.png' alt='cube-3' width='100%' height='auto' />
+    <br /><br /><br />
+
+    4. Select division from Path in the menu. 
+    <br /><br />
+    <img src='https://sadafzahra1223.s3.amazonaws.com/inkscape-create-cube/5.png' alt='cube-3' width='100%' height='auto' />
+    <br /><br /><br />
+
+    5. This splits the polygon object enabling you change colors and work with the parts of it as a cube.
+    <br /><br />
+    <img src='https://sadafzahra1223.s3.amazonaws.com/inkscape-create-cube/6.png' alt='cube-3' width='100%' height='auto' />
+    <br /><br /><br />
+   
+    </div>
+  </div>
+  <div class="page-footer">
+    <p>Footer.</p>
+  </div>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-222592681-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-222592681-1');
+</script>
+
+</body>
+
+</html>
